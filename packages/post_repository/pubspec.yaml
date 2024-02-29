@@ -1,0 +1,27 @@
+name: post_repository
+description: Dart package which manages the posts.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  uuid: ^4.3.3
+
+  user_repository:
+    path: ../user_repository
+  cloud_firestore: ^4.15.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
