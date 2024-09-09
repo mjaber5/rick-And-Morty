@@ -38,7 +38,7 @@ class _PostScreenState extends State<PostScreen> {
       child: GestureDetector(
         onTap: () => FocusScope.of(context).unfocus(),
         child: Scaffold(
-          backgroundColor: Theme.of(context).colorScheme.background,
+          backgroundColor: Theme.of(context).colorScheme.surface,
           floatingActionButton: FloatingActionButton(
             onPressed: () {
               if (_controller.text.length != 0) {
